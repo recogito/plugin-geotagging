@@ -55,10 +55,8 @@ export const AdminExtension = (props: AdminExtensionProps<GeoTaggerInstanceSetti
     setGazetteers(current => current.filter(g => g.id !== gazetteer.id));
 
   const onSave = () => {
-    if (gazetteers.length > 0) {
-      console.log({ gazetteers, basemap });
+    if (gazetteers.length > 0)
       props.onChangeUserSettings({ gazetteers, basemap });
-    }
   }
 
   const getName = (g: GazetteerDefinition) => {
