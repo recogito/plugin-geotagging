@@ -1,4 +1,4 @@
-# Recogito GeoTagger Plugin
+# Recogito Geotagging Plugin
 
 A geo-tagging plugin for Recogito.
 
