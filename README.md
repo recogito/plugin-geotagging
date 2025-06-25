@@ -4,10 +4,7 @@ A geo-tagging plugin for Recogito.
 
 ![A screenshot of the Recogito Geo-Tagging plugin](/screenshot.jpg "A screenshot of the Recogito Geo-Tagging plugin")
 
-## Installation: Recogito Studio 1.5
-
-Since Recogito Studio v1.5, plugins are implemented as [Astro Integrations](https://astro.build/integrations/). Therefore, the installation process has changed! For Recogito Studio 1.5, use the latest published version
-of this plugin (v0.3).
+## Installation
 
 1. Install the plugin package via npm
 
@@ -49,10 +46,12 @@ export default defineConfig({
 
 3. Restart the Recogito Studio client.
 
-## Installation: Recogito Studio 1.4
+## Important: Installation with Recogito Studio 1.4 and older
 
 For Recogito Studio 1.4 or older, you **must use v0.1 of this plugin**. Newer versions of the plugin
 require at least Recogito Studio 1.5. 
+
+To install the plugin with Recogito 1.4 or older:
 
 - Go to the folder where your `recogito-client` is installed.
 - Go into the `/plugins` folder.
